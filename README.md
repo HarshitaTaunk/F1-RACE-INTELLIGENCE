@@ -3,10 +3,10 @@
 
 The following documents provide details about the Formula 1 Race Intelligence Analysis project.
 
-- [Document 1](OVERVIEW AND DESCRIPTION)
-- [Document 2](DATA ANALYSIS)
-- [Document 3](VISUALIZATION AND DASHBOARD)
-- [Document 4](RESULT)
+- [Document 1](OVERVIEW AND DESCRIPTION.pdf)
+- [Document 2](DATA ANALYSIS.pdf)
+- [Document 3](VISUALIZATION AND DASHBOARD.pdf)
+- [Document 4](RESULT.pdf)
 
 
 ## Project Links
