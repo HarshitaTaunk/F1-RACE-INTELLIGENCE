@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Race Intelligence Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101116;
+            color: white;
+        }
+        header {
+            background: #191b22;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 3px solid #e10600;
+        }
+        nav {
+            text-align: center;
+            padding: 20px;
+            background: #22242c;
+        }
+        button {
+            background: #e10600;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        main { padding: 20px; }
+        iframe {
+            width: 100%;
+            height: 850px;
+            border: none;
+            background: white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>F1 Race Intelligence Dashboard</h1>
+        <p>Explore Formula One race performance and insights</p>
+    </header>
+
+    <nav>
+        <button onclick="showView('dashboard')">Dashboard</button>
+        <button onclick="showView('story')">Story</button>
+    </nav>
+
+    <main>
+        <h2 id="viewTitle">Welcome to F1 Race Intelligence</h2>
+        <p id="viewMessage">Select Dashboard or Story above to begin.</p>
+        <div id="visualization"></div>
+    </main>
+
+    <footer>F1 Race Intelligence | Tableau Public + Flask</footer>
+
+    <script>
+        function showView(view) {
+            const area = document.getElementById("visualization");
+            const title = document.getElementById("viewTitle");
+            const message = document.getElementById("viewMessage");
+
+            area.innerHTML = "";
+
+            let url;
+
+            if (view === "dashboard") {
+                title.textContent = "Interactive Dashboard";
+                message.textContent =
+                    "Explore race results, driver performance, and filters.";
+                url = "https://public.tableau.com/views/F1RaceIntelligenceDashboard_17930991864860/Dashboard1?:showVizHome=no";
+            } else {
+                title.textContent = "F1 Race Intelligence Story";
+                message.textContent =
+                    "Explore the visual story and key insights.";
+                url = "https://public.tableau.com/views/F1RaceIntelligenceDashboardStory/Story1?:showVizHome=no";
+            }
+
+            const frame = document.createElement("iframe");
+            frame.src = url;
+            frame.title = title.textContent;
+            frame.loading = "eager";
+            frame.allowFullscreen = true;
+            area.appendChild(frame);
+        }
+    </script>
+</body>
+</html>
