@@ -3,10 +3,10 @@
 
 The following documents provide details about the Formula 1 Race Intelligence Analysis project.
 
-- [Document 1](OVERVIEW AND DESCRIPTION.pdf)
-- [Document 2](DATA ANALYSIS.pdf)
-- [Document 3](VISUALIZATION AND DASHBOARD.pdf)
-- [Document 4](RESULT.pdf)
+- [Document 1](https://github.com/HarshitaTaunk/F1-RACE-INTELLIGENCE/blob/main/docs/OVERVIEW%20AND%20DESCRIPTION.pdf)
+- [Document 2](https://github.com/HarshitaTaunk/F1-RACE-INTELLIGENCE/blob/main/docs/DATA%20ANALYSIS.pdf)
+- [Document 3](https://github.com/HarshitaTaunk/F1-RACE-INTELLIGENCE/blob/main/docs/VISUALIZATION%20AND%20DASHBOARD.pdf)
+- [Document 4](https://github.com/HarshitaTaunk/F1-RACE-INTELLIGENCE/blob/main/docs/RESULT.pdf)
 
 
 ## Project Links
