@@ -4,7 +4,7 @@
 
 - **Live Website:** https://f1-race-intelligence-kp3a.onrender.com/
 - **Tableau Dashboard:** https://public.tableau.com/views/F1RaceIntelligenceDashboard_17930991864860/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
-- **Project Presentation Video:** [Add your recording link here]
+- **Project Presentation Video:** https://drive.google.com/file/d/1qN2UfdmmSYB0xsUczEuT15GT0aKuZFxR/view?usp=sharing
 
 ## Project Overview
 
